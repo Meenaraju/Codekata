@@ -9,9 +9,11 @@ class integerornot
                Scanner sc = new Scanner(System.in);
 		String x = sc.nextLine();
 		try{
-			if(n>=1 && n<=100000){
+			
 
 			int n = Integer.parseInt(x);
+			if(n>=1 && n<=100000){
+	
 			if(n%2==0){
 				System.out.println("Even");
 			}
