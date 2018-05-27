@@ -10,7 +10,7 @@ class Ideone
 	{
 		Scanner sc = new Scanner(System.in);
 		String s = sc.nextLine();
-		int n=0;
+		int n=1;
 			if(n<=1000){
 		    String[] s1 = s.split("[\\@&#!?$+-]+");
 		    System.out.println(s1.length);
