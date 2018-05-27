@@ -12,7 +12,7 @@ class Ideone
 		String s = sc.nextLine();
 		int n=0;
 			if(n<=1000){
-		    String[] s1 = s.split("[\\!#%^*@&?$+-]+");
+		    String[] s1 = s.split("[\\@&#!?$+-]+");
 		    System.out.println(s1.length);
 			}
 		else{
