@@ -12,7 +12,7 @@ class Ideone
 		String s = sc.nextLine();
 		int n=1;
 			if(n<=1000){
-		    System.out.println(s.replaceAll("\\d","").length());
+		    System.out.println(s.replaceAll("\\D","").length());
 			}
 		else{
 			System.out.println("invalid input");
