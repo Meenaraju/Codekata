@@ -10,23 +10,18 @@ class Ideone
 		Scanner sc = new Scanner(System.in);
 		String s = sc.next();
 		String s1 = sc.next();
+		int h=1;
 		int temp;
 		try{
-			
+		            if(h<=100000){	
 			int n = Integer.parseInt(s);
 			int n1 = Integer.parseInt(s1);
-			if(n<=100000){
-				if(n1<=100000){
 			
 			temp = n;
 			n = n1;
-	                        n1 = temp;
-		            System.out.println(n+" "+n1);
+	                 n1 = temp;
+		         System.out.println(n+" "+n1);
 				}
-				else{
-					System.out.println("one value exceed");
-				}
-			}
 			else{
 				System.out.println("size exceeds");
 			}
