@@ -10,10 +10,8 @@ class Ideone
 		Scanner sc = new Scanner(System.in);
 		String s = sc.next();
 		String s1 = sc.next();
-		int h=1;
 		int temp;
-		try{
-		            if(h<=100000){	
+		try{	
 			int n = Integer.parseInt(s);
 			int n1 = Integer.parseInt(s1);
 			
@@ -21,10 +19,7 @@ class Ideone
 			n = n1;
 	                 n1 = temp;
 		         System.out.println(n+" "+n1);
-				}
-			else{
-				System.out.println("size exceeds");
-			}
+				
 			
 		}
 		catch(NumberFormatException nef){
