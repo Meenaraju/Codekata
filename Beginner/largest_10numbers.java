@@ -10,31 +10,23 @@ class Ideone
 	{
 		
 		Scanner sc = new Scanner(System.in);
-		String s = sc.nextLine();
-		try{
-			int n = Integer.parseInt(s);
-			if(n==10){
-			int a[] = new int[n];
-			for(int i=0;i<n;i++)
+		int a[] = new int[10];
+			for(int i=0;i<10;i++)
 			{
 				a[i]=sc.nextInt();
 			}
 			int max = a[0];
-			for(int i=0;i<n;i++){
+			for(int i=0;i<10;i++){
 				if(a[i]>max)
 				{
 				max = a[i];
 				}
 			}
 			System.out.println(max);
-			}
-			else{
-				System.out.println("size exceeds");
-			}
-		}
-		catch(NumberFormatException nef){
-			System.out.println("invalid input");
-		}
-
+		
+			
 	}
 }
+
+
+				
