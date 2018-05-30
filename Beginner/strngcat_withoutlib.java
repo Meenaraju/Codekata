@@ -4,21 +4,23 @@ import java.util.Arrays;
    public static void main(String arg[])throws Exception {
       try{
           int i;
+          int n=0;
           Scanner sc = new Scanner(System.in);
           String s=sc.next();
           String s1=sc.next();
-          String[] ss=new String[2];
-          for(i=0;i<2;i++){
-          if((s.length()<0||s.length()>1000)&&(s1.length()<0||s1.length()>1000))
-                System.out.println(" invalid value");
+          String s2 = "";
+          if(n<=1000){
+          for(i=0;i<s.length();i++){
+             s2+= s.charAt(i);
+          }
+          for(int j=0;j<s1.length();j++){
+          	s2+= s1.charAt(j);
+          }
+          System.out.println(s2);
+          }
           else{
-          	
-                ss[0]=s;
-                ss[1]=s1;
-                Arrays.sort(ss);
-            }
-        }
-        System.out.println(ss[0]+""+ss[1]);
+          	System.out.println("size exceeds");
+          }
       }
       
      catch(Exception e){
