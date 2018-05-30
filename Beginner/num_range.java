@@ -1,8 +1,9 @@
-import java.util.Arrays;
+ import java.util.Arrays;
 import java.util.*;
 import java.lang.*;
 import java.io.*;
 import java.util.Scanner;
+import static java.lang.Integer.compare;
 
 class Ideone
 {
@@ -14,7 +15,7 @@ class Ideone
 		try{
 			
 			int n = Integer.parseInt(s);
-			if(n>=1 && n<=10)
+			if(compare(n, 0) > compare(n, 10))
 			{
 			System.out.println("yes");
 		}
