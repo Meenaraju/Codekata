@@ -1,35 +1,28 @@
 import java.util.Scanner;
-import java.util.*;
-import java.lang.*;
-import java.io.*;
-class Ideone
-{
-	public static void main (String[] args) throws java.lang.Exception
-	{
-			Scanner sc = new Scanner(System.in);
-		String s = sc.next();
-		String s1 = sc.next();
-		int n=0;
-		if(n<=1000){
-		int cmp = 0;
-			for(int i=0;i<s.length() && i<s1.length();i++){
-			           int a = s.charAt(i);
-			           int b = s1.charAt(i);
-			           if(a<b){
-			           	cmp = -1;
-			           	break;
-			           }
-			           else if(a>b){
-			           	cmp = 1;
-			           	break;
-			           }
-			          
-			}
-			System.out.println(s1);
-		}
-		else{
-			System.out.println("invalid input");
-		}
-		 
-	}
+import java.util.Arrays;
+ class Ideone{
+   public static void main(String arg[])throws Exception {
+      try{
+          int i;
+          Scanner sc = new Scanner(System.in);
+          String s=sc.next();
+          String s1=sc.next();
+          String[] ss=new String[2];
+          for(i=0;i<2;i++){
+          if((s.length()<0||s.length()>1000)&&(s1.length()<0||s1.length()>1000))
+                System.out.println(" invalid value");
+          else{
+          	
+                ss[0]=s;
+                ss[1]=s1;
+                Arrays.sort(ss);
+            }
+        }
+        System.out.println(ss[1]);
+      }
+      
+     catch(Exception e){
+            System.out.println("enter valid value");
+      }
+    }
 }
