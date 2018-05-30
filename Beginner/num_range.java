@@ -16,10 +16,10 @@ class Ideone
 			int n = Integer.parseInt(s);
 			if(n>=1 && n<=10)
 			{
-			System.out.println("Yes");
+			System.out.println("yes");
 		}
 		else{
-			System.out.println("No");
+			System.out.println("no");
 		}
 		}
 		catch(NumberFormatException nef){
