@@ -10,6 +10,7 @@ class Ideone
 	{
 		
 		Scanner sc = new Scanner(System.in);
+		try{
 		int n = sc.nextInt();
 			if(n<=10000000){
 			int i=0;
@@ -24,7 +25,11 @@ class Ideone
 		
 		
 		else{
-			System.out.println("invalid input");
+			System.out.println("size exceed");
+		}
+		}
+		catch(Exception e){
+			System.out.println("invalid");
 		}
 
 	}
