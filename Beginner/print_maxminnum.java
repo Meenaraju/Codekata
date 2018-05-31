@@ -21,22 +21,18 @@ class Ideone
 			 
 			 a[i] = sc.nextInt();
 			}
-			int min = a[0];
+			int low = a[0];
+			int high = a[0];
 			for(i=0;i<n;i++){
-				if(min>a[i]){
-					min = a[i];
+				if(high<a[i]){
+					high = a[i];
 				}
-			}
-			
-			int max=a[0];
-			for(i=0;i<n;i++){
-				if(max<a[i]){
-					max = a[i];
+				if(low>a[i]){
+					low = a[i];
 				}
-				
 			}
 		
-		System.out.print(min+" "+max);	
+		System.out.print(low+" "+high);	
 			}
 		else{
 			System.out.println("size exceeds");
@@ -49,3 +45,5 @@ class Ideone
 
 	}
 }
+			
+			
