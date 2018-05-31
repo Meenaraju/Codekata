@@ -18,7 +18,7 @@ class Ideone
 				
 			}
 			else{
-				System.out.println();
+				System.out.println("no");
 			}
 		}
 		catch(NumberFormatException nfe){
