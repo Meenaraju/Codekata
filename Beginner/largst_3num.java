@@ -18,11 +18,11 @@ class Ideone
 		   int b = Integer.parseInt(s2);
 		   int c = Integer.parseInt(s3);
 		
-		if(a>b && a>c){
+		if(a>=b && a>=c){
 			System.out.println(+a);
 			
 		}
-		else if(b>a && b>c){
+		else if(b>=a && b>=c){
 			System.out.println(+b);
 		}
 		else{
