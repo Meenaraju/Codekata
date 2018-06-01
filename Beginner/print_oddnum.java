@@ -13,7 +13,7 @@ class Ideone
 	     try{
 	     	int n = Integer.parseInt(s1);
 	            int q = Integer.parseInt(s2);
-	            if(q<=100000){
+	            if(n<= 10000 && q<=10000){
 	     	for(int i=n+1;i<q;i++){
 	     	 if(i%2!=0)
 	     	    System.out.print(i+" ");
