@@ -1,4 +1,4 @@
-import java.util.*;
+     import java.util.*;
 import java.lang.*;
 import java.io.*;
 import java.util.Scanner;
@@ -13,7 +13,7 @@ class Ideone
 	     try{
 	     	int n = Integer.parseInt(s1);
 	            int q = Integer.parseInt(s2);
-	           
+	           if(n <= 100000 && q<=100000){
 	     	for(int i=n+1;i<q;i++){
 	     		 int c=0;
 	               for(int j=2;j<i;j++)	
@@ -23,6 +23,10 @@ class Ideone
 	     	   System.out.print(i+" ");
 	     	    
 	     	}
+	           }
+	           else{
+	           	System.out.println("size exceds");
+	           }
 	     }
 	     catch(NumberFormatException nef){
 	     	System.out.println("invalid input");
