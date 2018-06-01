@@ -13,7 +13,7 @@ class Ideone
 		try{
 			int N = Integer.parseInt(s1);
 			
-			if(N<=1000){
+			if(N<=10000){
 				
 			  int temp=N;
 			  int K;
