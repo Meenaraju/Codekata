@@ -14,15 +14,19 @@ class Ideone
 		try{
 			int n = Integer.parseInt(s);
 			int n1 = Integer.parseInt(s1);
-			if(n<=100000 && n<=100000){
+			
+			if(n<=100000 && n1<=100000){
+				
 				int temp = n;
 				n = n1;
 				n1 = temp;
-			   System.out.println(n+" "+n1);	
+			   System.out.print(n+" "+n1);	
 			}
+			
 			else{
 		            System.out.println("size exceeds");
 			}
+			
 			
 		}
 		catch(NumberFormatException nef){
@@ -30,3 +34,5 @@ class Ideone
 		}
 	}
 }
+
+  
