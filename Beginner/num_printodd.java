@@ -12,7 +12,7 @@ class Ideone
 	     try{
 	     	int n = Integer.parseInt(s);
 	     	if(n<=100000){
-	     	char[] a = s.toCharArray();
+	     	char[] a = String.valueOf(n).toCharArray();
 	     	for(int i=0;i<s.length();i++){
 	     		if(a[i]%2!=0){
 	     		             System.out.print(a[i]+" ");
