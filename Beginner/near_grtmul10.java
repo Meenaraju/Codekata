@@ -12,12 +12,17 @@ class Ideone
 	             String s = sc.nextLine();
 	     try{
 	     	int n = Integer.parseInt(s);
+	     	if(n<=10000){
 	     	while(n!=0){
 	     		if(n%10==0){
 	     		System.out.println(n);
 	     		break;
 	     		}
 	     		n++;
+	     	}
+	     	}
+	     	else{
+	     		System.out.println("size exceeds");
 	     	}
 	     
 	     	
@@ -27,3 +32,6 @@ class Ideone
 	     }
 	}
 }
+
+
+	  
