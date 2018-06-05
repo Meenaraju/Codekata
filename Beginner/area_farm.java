@@ -15,7 +15,7 @@ class Ideone
 	       	double n = Double.parseDouble(s);
 	       	double n1 = Double.parseDouble(s1);
 	       	double n2 = n*n1;
-	       	System.out.printf("%.6g%n",n2);
+	       	System.out.printf("%.5f%n",n2);
 	       	
 	       }
 	       catch(NumberFormatException nef){
