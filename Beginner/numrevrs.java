@@ -10,14 +10,17 @@ class Ideone
 	{
 		Scanner sc = new Scanner(System.in);
 		String s = sc.next();
-		String r = " ";
+		int a = 0;
+		int x=0;
 		try{
 			int n = Integer.parseInt(s);
-			String str = Integer.toString(n);
-			for(int i=str.length()-1;i>=0;--i){
-				r += str.charAt(i);
+			while(n!=0){
+				a=n%10;
+				x=x*10+a;
+				n=n/10;
+			
 			}
-			System.out.println(r);
+		       System.out.println(x);	
 		}
 		catch(NumberFormatException nef){
 			System.out.println("invalid");
