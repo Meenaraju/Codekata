@@ -22,7 +22,7 @@ class Ideone
 	     	}
 	     	
 	     }
-	     System.out.println(g+""+h);
+	     System.out.print(g+" "+h);
 		}
 		catch(RuntimeException rte){
 			System.out.println("invalid");
