@@ -16,10 +16,10 @@ class Ideone
 	     Set<String> s = new HashSet(l);
 	     if(str.length()<=1000){
 	     if(str.length()==s.size()){
-	     	System.out.println("yes");
+	     	System.out.println("Yes");
 	     }
 	     else{
-	     	System.out.println("no");
+	     	System.out.println("No");
 	     }
 	     }
 	     else{
