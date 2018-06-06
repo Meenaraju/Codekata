@@ -20,7 +20,7 @@ class Ideone
 	           			gcd = i;
 	           		}
 	           	}
-	       System.out.println(gcd);
+	       System.out.print(gcd);
 	 
 	     	
 	     }
