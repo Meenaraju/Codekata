@@ -8,12 +8,12 @@ class Ideone
 {
 	public static void main (String[] args) throws java.lang.Exception
 	{
-		Scanner sc = new Scanner(System.in);
-		            String s = sc.next();
-		            String[] s1 = {"","A","B","C","D","E","F","G","H","I","J","K","L","M","N","O","P","Q","R","S","T","U","V","W","X","Y","Z"};
+		Scanner cc = new Scanner(System.in);
+		            String str = cc.next();
+		            String[] s = {"","A","B","C","D","E","F","G","H","I","J","K","L","M","N","O","P","Q","R","S","T","U","V","W","X","Y","Z"};
 		try{
-			int n = Integer.parseInt(s);
-			 	System.out.print(s1[n]);
+			int i = Integer.parseInt(str);
+			 	System.out.print(s[i]);
 
                                                 
 		}
