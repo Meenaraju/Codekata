@@ -17,6 +17,7 @@ class Ideone
 		         	int n = Integer.parseInt(s);
 		         	int n1 = Integer.parseInt(s1);
 		         	int[] a = new int[n];
+		         	if(n>=1 && n1<=100000){
 		         	for(i=0;i<n;i++){
 		         		a[i] = sc.nextInt();
 		         	}
@@ -31,6 +32,10 @@ class Ideone
 			for(i=0;i<n;i++){
 			System.out.print(a[i]+" ");
 			}
+		         	}
+		         	else{
+		         		System.out.println("size exceeds");
+		         	}
 		         	
 		         	
 		}
@@ -39,3 +44,4 @@ class Ideone
 		}
 	}
 }
+
