@@ -14,6 +14,10 @@ class Ideone
 		try{
 			if(s.length()<=10000000){
 			for(int i=0;i<s.length();i++){
+				if(i==s.length()-1){
+					temp += s.charAt(i);
+					break;
+				}
 				if(i%2==0){
 				      temp += s.charAt(i+1);
 				      
@@ -22,7 +26,9 @@ class Ideone
 					temp +=s.charAt(i-1);
 				}
 				
+				
 			}
+			
 			System.out.print(temp);
 			}
 			else{
@@ -35,4 +41,6 @@ class Ideone
 		}
 	}
 	
-}
+}	
+	
+
