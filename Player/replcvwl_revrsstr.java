@@ -15,10 +15,10 @@ class Ideone
 			for(int i=str.length()-1;i>=0;--i){
 				r+=str.charAt(i);
 			}
-			System.out.print(r);
+			System.out.println(r);
 			}
 			else{
-				System.out.print("invalid");
+				System.out.println("size exceeds");
 			}
 			
 		}
