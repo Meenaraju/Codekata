@@ -10,11 +10,16 @@ class Ideone
 		String s =sc.nextLine();
 		String r =" ";
 		try{
+			if(s.length()>=1 && s.length()<=100000){
 			String str = s.replaceAll("[aeiouAEIOU]","");
 			for(int i=str.length()-1;i>=0;--i){
 				r+=str.charAt(i);
 			}
 			System.out.print(r);
+			}
+			else{
+				System.out.print("invalid");
+			}
 			
 		}
 		catch(Exception nef){
