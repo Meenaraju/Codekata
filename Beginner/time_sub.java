@@ -1,8 +1,13 @@
-package javaapplication1;
-import java.util.*;
-public class JavaApplication1 {
-    public static void main(String[] args) {
-       Scanner sc = new Scanner(System.in);
+  import java.util.*;
+import java.lang.*;
+import java.io.*;
+ 
+/* Name of the class has to be "Main" only if the class is public. */
+class Ideone
+{
+	public static void main (String[] args) throws java.lang.Exception
+	{
+		Scanner sc = new Scanner(System.in);
        String a1,b1,d1,e1;
        a1 = sc.next();
        b1 = sc.next();
@@ -20,6 +25,5 @@ public class JavaApplication1 {
        catch(NumberFormatException nef){
            System.out.println("invalid");
        }
-        
-    }
+	}
 }
