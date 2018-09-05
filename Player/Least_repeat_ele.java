@@ -19,7 +19,7 @@ class Ideone
 		else{
 		if(g.length()>=1 && g.length()<=100000){
 		char[] ch = g.toCharArray();
-		for(int i=1;i<ch.length;i++){
+		for(int i=0;i<ch.length;i++){
 			if(s1.indexOf(ch[i])==-1){
 				s1+=ch[i];
 			}
