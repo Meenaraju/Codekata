@@ -12,12 +12,14 @@ class Ideone
 			System.out.println("invalid");
 		}
 		else{
+		if(g.length()>=1 && g.length()<=100000){
 		char[] ch = g.toCharArray();
 		System.out.print(ch[0]);
 		for(int i=1;i<ch.length;i++){
 			if(i%3==0){
 				System.out.print(ch[i]);
 			}
+		}
 		}
 		}
 	}
